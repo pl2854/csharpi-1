@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pVcX9lF0iUQ4NzQvyJm95igbXWq+7vxb2Uu2YUvmubMFG0zcJWiQXTBRA1skH/+jGryzM6DngOZ27RPSaiw1Aw==",
+  "dgSpecHash": "YXZbEFNOdRHB3vlIXVfe3JIONJHivwslXT8+MDna/Ns3FUBR+cvg4N3hV3q6j8HmEulg+n771EZe9zLpVvtN/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Patrik\\csharpi\\csharpi.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Users\\Patrik\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\Patrik\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.6\\microsoft.extensions.configuration.fileextensions.3.1.6.nupkg.sha512",
     "C:\\Users\\Patrik\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.6\\microsoft.extensions.configuration.json.3.1.6.nupkg.sha512",
+    "C:\\Users\\Patrik\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
+    "C:\\Users\\Patrik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\Patrik\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.6\\microsoft.extensions.fileproviders.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\Patrik\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.6\\microsoft.extensions.fileproviders.physical.3.1.6.nupkg.sha512",
     "C:\\Users\\Patrik\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.6\\microsoft.extensions.filesystemglobbing.3.1.6.nupkg.sha512",
