@@ -26,7 +26,7 @@ namespace csharpi
         {
             // create the configuration
             var _builder = new ConfigurationBuilder()
-                .SetBasePath(AppContext.BaseDirectory)
+                .SetBasePath(Environment.CurrentDirectory)
                 .AddJsonFile(path: "config.json");  
 
             // build the configuration and assign to _config          
