@@ -24,8 +24,8 @@ namespace csharpi.Modules
             var user = Context.User;
             
             // build out the reply
-            sb.AppendLine($"Welcome");
-            sb.AppendLine("write ;8ball to ask a question");
+            sb.AppendLine($"You are -> [{user.Username}]");
+            sb.AppendLine("Welcome!");
 
             // send simple string reply
             await ReplyAsync(sb.ToString());
@@ -56,7 +56,7 @@ namespace csharpi.Modules
             
             // we can get lots of information from the Context that is passed into the commands
             // here I'm setting up the preface with the user's name and a comma
-            sb.AppendLine($",");
+            sb.AppendLine($"{Context.User.Username},");
             sb.AppendLine();
 
             // let's make sure the supplied question isn't null 
@@ -72,9 +72,9 @@ namespace csharpi.Modules
                 var answer = replies[new Random().Next(replies.Count - 1)];
                 
                 // build out our reply with the handy StringBuilder
-                sb.AppendLine($"You asked: [****]...");
+                sb.AppendLine($"You asked: [**{args}**]...");
                 sb.AppendLine();
-                sb.AppendLine($"...your answer is [****]");
+                sb.AppendLine($"...your answer is [**{answer}**]");
 
                 // bonus - let's switch out the reply and change the color based on it
                 switch (answer) 
