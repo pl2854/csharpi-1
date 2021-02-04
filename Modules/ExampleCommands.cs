@@ -24,8 +24,8 @@ namespace csharpi.Modules
             var user = Context.User;
             
             // build out the reply
-            sb.AppendLine($"You are -> []");
-            sb.AppendLine("I must now say, World!");
+            sb.AppendLine($"Welcome");
+            sb.AppendLine("write ;8ball to ask a question");
 
             // send simple string reply
             await ReplyAsync(sb.ToString());
